@@ -1,0 +1,181 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1240282686" file="H:\MASTER CODE GARJAS\RegistrationModule RC3\RegistrantStation.prj" location="H:\MASTER CODE GARJAS\RegistrationModule RC3" name="RegistrantStation" preferred-package-location="C:\Users\Asus\Documents\RegistrationModule RC3\RegistrantStation\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>RegistrantStation</param.appname>
+    <param.icon>${PROJECT_ROOT}\RegistrantStation_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\RegistrantStation_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\RegistrantStation_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\RegistrantStation_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\RegistrantStation_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Metavision Studio</param.authnamewatermark>
+    <param.email>metavisionstudio@gmail.com</param.email>
+    <param.company>Metavision Studio</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\Metavision Studio\RegistrantStation\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\RegistrantStation\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\RegistrantStation\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\RegistrantStation\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="OS Generic Video Interface" enabled="true" name="OS Generic Video Interface" product="Image Acquisition Toolbox"/&gt;</item>
+    </param.support.packages>
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>Registrant_Installer</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.version />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\RegistrantStation.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\beepcouple.mat</file>
+      <file>${PROJECT_ROOT}\BlankScreen.jpg</file>
+      <file>${PROJECT_ROOT}\calculateAge.m</file>
+      <file>${PROJECT_ROOT}\ChangeGroup.fig</file>
+      <file>${PROJECT_ROOT}\ChangeGroup.m</file>
+      <file>${PROJECT_ROOT}\CheckConnection.m</file>
+      <file>${PROJECT_ROOT}\CheckInContainer.m</file>
+      <file>${PROJECT_ROOT}\ClearData.m</file>
+      <file>${PROJECT_ROOT}\clearingDisplay_Callback.m</file>
+      <file>${PROJECT_ROOT}\ConnectDatabase.m</file>
+      <file>${PROJECT_ROOT}\CreateServerConf.m</file>
+      <file>${PROJECT_ROOT}\default_icon_48.png</file>
+      <file>${PROJECT_ROOT}\dialog.m</file>
+      <file>${PROJECT_ROOT}\dialogCellstrHelper.m</file>
+      <file>${PROJECT_ROOT}\encodeEAN13.m</file>
+      <file>${PROJECT_ROOT}\findC920ID.m</file>
+      <file>${PROJECT_ROOT}\GarjasCheckCon.m</file>
+      <file>${PROJECT_ROOT}\GarjasCreateContainer.m</file>
+      <file>${PROJECT_ROOT}\GarjasCreateTest.m</file>
+      <file>${PROJECT_ROOT}\GarjasEditContainer.m</file>
+      <file>${PROJECT_ROOT}\GarjasGetActiveTest.m</file>
+      <file>${PROJECT_ROOT}\GarjasGetFolderName.m</file>
+      <file>${PROJECT_ROOT}\GarjasGetListIdTest.m</file>
+      <file>${PROJECT_ROOT}\GarjasGetMasterTest.m</file>
+      <file>${PROJECT_ROOT}\GarjasGetNama.m</file>
+      <file>${PROJECT_ROOT}\GarjasGetTestPeserta.m</file>
+      <file>${PROJECT_ROOT}\GarjasRegisterUser.m</file>
+      <file>${PROJECT_ROOT}\GarjasSaveOffline.m</file>
+      <file>${PROJECT_ROOT}\GarjasSetStatusTest.m</file>
+      <file>${PROJECT_ROOT}\getF.m</file>
+      <file>${PROJECT_ROOT}\getIDVol.m</file>
+      <file>${PROJECT_ROOT}\getnicedialoglocation.m</file>
+      <file>${PROJECT_ROOT}\http_createHeader.m</file>
+      <file>${PROJECT_ROOT}\http_paramsToString.m</file>
+      <file>${PROJECT_ROOT}\myinputdlg.m</file>
+      <file>${PROJECT_ROOT}\mymsgbox.m</file>
+      <file>${PROJECT_ROOT}\myquestdlg.m</file>
+      <file>${PROJECT_ROOT}\mysql-connector-java-5.0.8-bin.jar</file>
+      <file>${PROJECT_ROOT}\mywarndlg.m</file>
+      <file>${PROJECT_ROOT}\OpenConnection.m</file>
+      <file>${PROJECT_ROOT}\RegistrantStation.fig</file>
+      <file>${PROJECT_ROOT}\sendMsg.m</file>
+      <file>${PROJECT_ROOT}\setdefaultbutton.m</file>
+      <file>${PROJECT_ROOT}\templateCard.bmp</file>
+      <file>${PROJECT_ROOT}\testCardParams.m</file>
+      <file>${PROJECT_ROOT}\urlencode2.m</file>
+      <file>${PROJECT_ROOT}\urlread2.m</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}\beepcouple.mat</file>
+      <file>${PROJECT_ROOT}\default_icon_48.png</file>
+      <file>${PROJECT_ROOT}\mysql-connector-java-5.0.8-bin.jar</file>
+      <file>${PROJECT_ROOT}\templateCard.bmp</file>
+    </fileset.package>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\RegistrantStation\for_testing" name="splash.png" optional="false">H:\MASTER CODE GARJAS\RegistrationModule RC3\RegistrantStation\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\RegistrantStation\for_testing" name="RegistrantStation.exe" optional="false">H:\MASTER CODE GARJAS\RegistrationModule RC3\RegistrantStation\for_testing\RegistrantStation.exe</file>
+      <file location="${PROJECT_ROOT}\RegistrantStation\for_testing" name="readme.txt" optional="true">H:\MASTER CODE GARJAS\RegistrationModule RC3\RegistrantStation\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
